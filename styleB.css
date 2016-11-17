@@ -1,0 +1,44 @@
+body{
+    text-align:center;
+    margin-left:15px;
+    margin-right:15px;
+}
+
+h1{
+    color:#0066ff;
+    font-size:2.5em;
+    text-shadow: 3px 3px 10px #cce0ff;
+    font-family: "Times New Roman", serif;
+}
+
+h2{
+    color:#ff9900;
+    font-size:2em;
+    font-style:italic;
+}
+
+h3{
+    background-color:#003366;
+    color:white;
+    font-size:1.5em;
+    opacity:0.7;
+}
+
+ul{
+    background-color:#ff6666;
+    padding:1em;
+    list-style-position:inside;
+}
+
+li{
+    background-color:#ffcccc;
+    padding:1em;
+    margin:1em;
+}
+
+p{
+    background-color:black;
+    color:white;
+    padding:2em;
+    font-family:"Courier New", monospace;
+}
