@@ -1,0 +1,53 @@
+html{
+  background:#cbbab4;
+  font-size:17px;
+  line-height:180%;
+}
+
+body{
+  background:#ede8e6;
+  color:#2c2b2a;
+  margin:2.5em;
+  font-family:"Times New Roman", Times, Serif;
+}
+
+p{
+  padding:2.5em;
+}
+
+div:nth-child(odd){
+  background:#2c2b2a;
+  color:#ede8e6;
+}
+
+p::selection{
+  background:#43858c;
+  color:#cbdddf;
+}
+
+.tip{
+  position:relative;
+  display:inline-block;
+  border-bottom: 1px solid #42858c;
+  font-weight: bold;
+  font-size:2em;
+}
+
+.tip .tiptext{
+  visibility:hidden;
+  width:180px;
+  background:#35393c;
+  color:#dadbdb;
+  text-align:center;
+  font-weight:normal;
+  padding:5px;
+  z-index:1;
+  position:absolute;
+  top:-7px;
+  left:105%;
+  border-radius:5px;
+}
+
+.tip:hover .tiptext{
+  visibility:visible;
+}
